@@ -95,6 +95,6 @@ python office_tweaks.py --compress-images all --workdir "C:\Pictures" --quality 
 python office_tweaks.py --delete --delete-mode extension --delete-pattern ext --delete-dir "C:\path\to\folder"
 
 # Удаление по подстроке в начале имени
-python office_tweaks.py --delete --delete-mode startswith --delete-pattern "smth_" --delete-dir "C:\path\to\folder"
+python office_tweaks.py --delete --delete-mode startswith --delete-pattern "smth_" --workdir "C:\path\to\folder"
 
 
